@@ -24,8 +24,17 @@ module.exports = {
     ** Nuxt Modules
     */
     modules: [
-        ['@nuxtjs/style-resources']
+        '@nuxtjs/style-resources',
+        '@nuxtjs/axios',
     ],
+
+    /*
+    ** Axios Config
+    */
+    axios: {
+        // Api endpoint url
+        baseURL: 'http://eager.test/api'
+    },
 
     /*
     ** Style Resources

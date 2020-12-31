@@ -13,6 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "codyhouse-framework": "^2.8.4",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {

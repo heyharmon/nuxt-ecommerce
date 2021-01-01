@@ -14,12 +14,14 @@
         <div class="col-6@md col-5@lg">
             <!-- Title -->
           <div class="margin-bottom-xs">
-            <h1>Product Name</h1>
+            <h1>{{ product.name }}</h1>
           </div>
 
           <!-- Description -->
           <div class="text-component v-space-md margin-y-md">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iste fugiat. Perferendis commodi, est a aspernatur aperiam odit tempora consequuntur.</p>
+            <p v-if="product.description">
+                {{ product.description }}
+            </p>
             <p class="text-md">
                 <del class="text-line-through color-contrast-medium margin-right-xxs">$49</del>
                 <ins class="text-decoration-none">$29</ins>
@@ -85,6 +87,20 @@
 // TODO
 
 export default {
+    data() {
+        return {
+            product: null
+        }
+    },
+
+    async asyncData({ params, app }) {
+        let response = await app.$axios.$get('products/' + params.slug)
+
+        return {
+            product: response.data
+        }
+    },
+
     mounted() {
         // File#: _1_number-input
         // Usage: codyhouse.co/license

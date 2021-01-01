@@ -1,8 +1,10 @@
 <template>
-    <div class="container max-width-lg text-component padding-y-xl">
-        <h1>Category</h1>
-        <p>Products for a category</p>
-    </div>
+    <section class="category">
+        <div class="text-component">
+            <h1>Category</h1>
+            <p>Products for a category</p>
+        </div>
+    </section>
 </template>
 
 <script>

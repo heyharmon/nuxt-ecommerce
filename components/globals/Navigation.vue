@@ -29,6 +29,9 @@
                                 {{ category.name }}
                             </nuxt-link>
                         </li>
+                        <li class="header__item">
+                            <nuxt-link to="/products/nike-air-max" class="header__link">Product</nuxt-link>
+                        </li>
                         <!-- <li class="header__item">
                             <nuxt-link to="/#" class="header__link">Pricing</nuxt-link>
                         </li>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container max-width-lg text-component padding-y-xl">
+    <div class="text-component">
         <h1>Home</h1>
         <p>Lorem ipsum solar sit amet.</p>
         <a href="#" class="btn btn--primary">Button</a>

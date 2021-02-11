@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navigation />
-        <div class="container max-width-lg  padding-y-lg">
+        <div class="container max-width-lg padding-y-lg">
             <nuxt/>
         </div>
     </div>

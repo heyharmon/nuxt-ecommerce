@@ -26,7 +26,7 @@
                             <nuxt-link
                                 :to="'/categories/' + category.slug"
                                 class="header__link">
-                                {{ category.name }}
+                                {{ category.title }}
                             </nuxt-link>
                         </li>
                         <li class="header__item">

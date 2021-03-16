@@ -1,4 +1,4 @@
-# nuxt-ecommerce
+# nuxt-shop
 
 > Nuxt.js project
 

@@ -1,4 +1,4 @@
-# eagerclient
+# nuxt-ecommerce
 
 > Nuxt.js project
 
